@@ -1,0 +1,31 @@
+<!DOCTYPE	html>
+<html lang="eS">
+    <head>
+	    <title>Calculadora 2.0</title>
+		<meta charset="UTF-8">
+		<!-- Enlazamos	los	estilos	CSS-->
+		<link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+		<!-- Creamos	un	DIV	para	contener	el	formulario	-->
+		<div id="form">
+			<span>Ingrese números y seleccione la operacion a realizar: (la operación será el primer número sobre el segundo)</span>
+			<!-- Creamos	dos	input	para	recuperar	los	datos
+			ingresados	por	el	usuario	-->
+            <input id="input-uno" type="text" required>
+            <div id="numero1"></div>
+            <br>
+            <input id="input-dos" type="text" required>
+            <div id="numero2"></div>
+			<!-- Creamos	un	botón	con	el	fin	de	invocar	la	suma	-->
+            <button id="btnS">Sumar</button>
+            <button id="btnR">Restar</button>
+            <button id="btnM">Multiplicar</button>
+            <button id="btnD">Dividir</button>
+		</div>
+		<!-- Creamos	in	DIV	que	permita	mostrar	el	resultado	de	la	suma	-->
+		<div id="resultado"></div>
+		<!-- Enlazamos	el	código	JS	-->
+		<script src="codigo.js"></script>
+    </body>
+</html>
